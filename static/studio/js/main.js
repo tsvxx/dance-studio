@@ -1,0 +1,2 @@
+document.querySelector(".menu-toggle")?.addEventListener("click",()=>document.querySelector("header nav")?.classList.toggle("open"));
+document.querySelectorAll(".message").forEach(m=>setTimeout(()=>m.classList.add("fade"),5000));

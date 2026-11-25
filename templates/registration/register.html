@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<section class="auth-wrap"><form method="post" class="auth-card">{% csrf_token %}<span class="eyebrow">СТАНЬ ЧАСТЬЮ DANCE STUDIO</span><h1>Регистрация</h1>{{ form.as_p }}<button class="pill">Создать аккаунт →</button></form></section>{% endblock %}

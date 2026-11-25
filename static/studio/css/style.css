@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap');
+:root{--ink:#171213;--rose:#eaa4b4;--rose2:#f7dce2;--paper:#f8f5f4;--muted:#746b6b}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Manrope,Arial,sans-serif}a{color:inherit;text-decoration:none}.topbar{height:76px;padding:0 5.5%;display:flex;align-items:center;justify-content:space-between;background:#fbf8f7;gap:22px;position:sticky;top:0;z-index:10;border-bottom:1px solid #eee5e5}.brand{display:flex;align-items:center;font:16px/1 Playfair Display,serif;gap:7px}.brand-mark{font-size:28px}.topbar nav{display:flex;gap:clamp(10px,2vw,28px);font-size:12px}.topbar nav a:hover,.text-link:hover{color:#c8758c}.nav-actions{display:flex;align-items:center;gap:12px;font-size:12px}.nav-actions form{margin:0}.link-btn{border:0;background:none;font:inherit;cursor:pointer}.pill{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:30px;background:var(--rose);padding:12px 23px;font:600 12px Manrope;cursor:pointer;transition:.2s}.pill:hover{background:#df8fa3;transform:translateY(-1px)}.menu-toggle{display:none;background:none;border:0;font-size:22px}.hero{min-height:570px;background:#211a1b;color:white;display:grid;grid-template-columns:1fr 1.15fr;position:relative;overflow:hidden}.hero-copy{padding:100px 8% 75px 12%;z-index:1}.eyebrow{font-size:10px;letter-spacing:3px;color:#c37f91;font-weight:700}.hero h1,.page-hero h1,.contact-copy h1{font:clamp(48px,6vw,82px)/.98 'Playfair Display',serif;margin:25px 0}.hero h1 span{color:var(--rose)}.hero-copy p{font:20px/1.4 'Playfair Display';margin:0 0 28px}.hero-photo{background:linear-gradient(90deg,#211a1b00,#211a1b22),url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=1200&q=85') center 35%/cover;min-height:570px;clip-path:polygon(13% 0,100% 0,100% 100%,0 100%)}.hero-note{position:absolute;right:4%;bottom:25px;font:italic 15px 'Playfair Display';letter-spacing:4px;color:#f5cbd4}.section{padding:70px 7%}.section h2{font:36px 'Playfair Display';margin:0 0 35px}.benefits{text-align:center;background:#f4eeee}.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.benefit-grid article{display:flex;flex-direction:column;gap:7px;font:32px 'Playfair Display';padding:18px}.benefit-grid b{font:600 13px Manrope}.benefit-grid span{font:12px Manrope;color:var(--muted)}.split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.split h2{font:38px/1.15 'Playfair Display';margin:15px 0}.split p,.page-hero p{line-height:1.8;color:var(--muted);max-width:480px}.split-photo,.studio-photo{height:390px;background:url('https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1000&q=85') center/cover}.studio-photo{background-image:url('https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=1000&q=85')}.section-head{display:flex;justify-content:space-between;align-items:end}.text-link{font-size:13px;color:#a65e72}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.direction-card,.teacher-card,.info-card{background:#fff;padding:14px;border-radius:13px;box-shadow:0 7px 25px #24191a0b}.card-image{height:210px;border-radius:9px;background-size:cover;background-position:center}.card-1{background-image:url('https://images.unsplash.com/photo- ballet?auto=format&fit=crop&w=700&q=80')}.card-1{background-image:url('https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=700&q=80')}.card-2{background-image:url('https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=700&q=80')}.card-3{background-image:url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80')}.card-4{background-image:url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80')}.card-5{background-image:url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80')}.direction-card h3,.teacher-card h3{font:22px 'Playfair Display';margin:17px 5px 8px}.direction-card p,.teacher-card p{font-size:13px;line-height:1.6;color:var(--muted);margin:0 5px 14px}.direction-card a{font-size:12px;color:#a65e72;margin:5px}.quote-band,footer{background:#1c1516;color:#f7d6de;text-align:center;padding:25px;font:italic 25px 'Playfair Display'}.page-hero{padding:90px 10%;background:linear-gradient(90deg,#201819df,#20181955),url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=1600&q=85') center/cover;color:white;min-height:310px}.page-hero h1{font-size:58px;margin:18px 0}.page-hero p{color:#f6e9eb}.directions-hero{background-image:linear-gradient(90deg,#201819d9,#20181940),url('https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=1600&q=85')}.schedule-hero{background-image:linear-gradient(90deg,#201819d9,#20181955),url('https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1600&q=85')}.promo{margin:20px 7% 70px;padding:25px 35px;background:var(--rose2);border-radius:16px;display:flex;align-items:center;gap:20px}.promo h2{font:26px 'Playfair Display';flex:1}.teacher-card img{width:100%;height:250px;object-fit:cover;border-radius:8px}.teacher-placeholder{height:250px;background:var(--rose2);display:grid;place-items:center;font-size:70px}.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:25px}.filters input,.filters select,.contact-form input,.contact-form textarea,.auth-card input{padding:13px 15px;border:1px solid #e9dddd;border-radius:9px;background:#fff;font:13px Manrope}.lesson-list{display:flex;flex-direction:column;gap:12px}.lesson-row{background:white;border-radius:12px;padding:17px 20px;display:flex;align-items:center;gap:20px;box-shadow:0 4px 18px #21171908}.lesson-date{width:52px;height:58px;background:var(--rose2);border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center}.lesson-date b{font:25px 'Playfair Display'}.lesson-date span{font-size:11px}.lesson-info{flex:1}.lesson-info h3{font:19px 'Playfair Display';margin:0 0 5px}.lesson-info p,.lesson-info small{font-size:12px;color:var(--muted);margin:3px 0}.lesson-availability{font-size:12px;color:#8d6971}.contact-layout{padding:75px 8%;display:grid;grid-template-columns:1fr 1fr;gap:60px;background:linear-gradient(90deg,#f7e7e9,#f8f5f4)}.contact-copy h1{font-size:58px}.contact-copy p{line-height:1.7}.socials{margin-top:30px}.contact-form,.auth-card{background:#fff;padding:30px;border-radius:17px;display:flex;flex-direction:column;gap:14px;box-shadow:0 10px 35px #44212b10}.contact-form h2,.auth-card h1{font:30px 'Playfair Display';margin:0 0 10px}.contact-form textarea{height:130px;resize:vertical}.map-placeholder{height:170px;margin:0 8% 60px;background:linear-gradient(135deg,#eee6e3,#e5dedb);display:grid;place-items:center;color:#8b7376;letter-spacing:3px}.auth-wrap{padding:70px 15px;display:grid;place-items:center}.auth-card{width:min(480px,100%)}.auth-card p{display:flex;flex-direction:column;gap:6px;margin:0}.auth-card label{font-size:12px}.auth-card input{width:100%}.auth-card ul,.helptext{font-size:11px;color:var(--muted)}.dashboard h1,.section h1{font:42px 'Playfair Display'}.info-card h3{font:22px 'Playfair Display'}.info-card p,.info-card small{color:var(--muted);font-size:12px}.progress{height:6px;background:#f3e5e8;border-radius:9px;margin:12px 0;overflow:hidden}.progress span{display:block;height:100%;background:var(--rose)}.outline-btn{padding:10px 16px;border:1px solid #d9a0ad;border-radius:25px;background:white;font:12px Manrope;cursor:pointer}.attendance-form,.admin-form{max-width:650px;background:#fff;padding:25px;border-radius:12px;margin:20px 0}.attendance-row{display:flex;align-items:center;gap:12px;padding:13px;border-bottom:1px solid #eee}.admin-form p{display:flex;flex-direction:column;gap:6px}.admin-form input,.admin-form select,.admin-form textarea{padding:10px;border:1px solid #ddd;border-radius:7px}.table-wrap{overflow-x:auto;background:#fff;border-radius:12px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:15px;text-align:left;border-bottom:1px solid #eee}th{background:#f8edef}.muted{color:var(--muted);font-size:12px}.messages{position:fixed;right:15px;top:85px;z-index:20;max-width:360px}.message{background:#fff;padding:14px 20px;margin:8px;border-left:4px solid #d68ea0;box-shadow:0 5px 20px #0001;border-radius:7px;font-size:13px}.message.error{border-color:#b54d4d}.message.fade{opacity:0;transition:1s}footer{display:flex;justify-content:space-between;align-items:center;font-size:16px}footer small{font:10px Manrope;color:#c7b5b9}
+@media(max-width:900px){.topbar nav{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:22px;flex-direction:column}.topbar nav.open{display:flex}.menu-toggle{display:block}.hero{grid-template-columns:1fr 1fr}.hero-copy{padding:80px 8%}.cards{grid-template-columns:repeat(2,1fr)}.benefit-grid{grid-template-columns:repeat(2,1fr)}.lesson-row{flex-wrap:wrap}.contact-layout{gap:25px;padding:55px 5%}}
+@media(max-width:600px){.topbar{height:66px;padding:0 5%}.topbar nav{top:66px}.nav-actions{font-size:11px}.hero{display:block;min-height:650px}.hero-copy{padding:65px 8% 35px}.hero-photo{position:absolute;inset:0;opacity:.43;clip-path:none;min-height:100%;z-index:0}.hero-copy{position:relative;z-index:1}.hero h1{font-size:62px}.section{padding:48px 5%}.section h2{font-size:30px}.split{grid-template-columns:1fr;gap:25px}.split-photo,.studio-photo{height:260px}.cards{grid-template-columns:1fr}.benefit-grid{gap:4px}.benefit-grid article{padding:10px 3px;font-size:27px}.benefit-grid b{font-size:12px}.page-hero{padding:65px 7%;min-height:260px}.page-hero h1,.contact-copy h1{font-size:44px}.filters{display:grid;grid-template-columns:1fr 1fr}.filters input,.filters select{min-width:0;width:100%}.lesson-row{gap:12px;padding:13px}.lesson-info{min-width:60%}.lesson-row .pill{padding:10px 13px}.contact-layout{grid-template-columns:1fr;padding:45px 5%}.promo{margin:10px 5% 45px;padding:20px;flex-wrap:wrap}.promo h2{font-size:21px}.section-head{align-items:start;gap:10px;flex-direction:column}footer{flex-direction:column;gap:10px}.table-wrap{font-size:11px}}
+
+/* Dance Studio visual expansion */
+.hero-subnote{font:13px/1.7 Manrope,Arial,sans-serif!important;color:#eadde0;max-width:430px;margin-top:22px!important}
+.about-home{background:#fff}
+.wide-copy{max-width:920px;color:#6f6466;line-height:1.95;font-size:15px}
+.stats-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px}
+.stats-strip>div{padding:22px;background:#f8eef0;border-radius:12px;display:flex;flex-direction:column;gap:7px}
+.stats-strip b{font:38px 'Playfair Display',serif;color:#bd7185}
+.stats-strip span{font-size:12px;color:#766b6d}
+.teacher-feature{background:#f5eded}
+.teacher-mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.teacher-mini{height:260px;border-radius:14px;background-position:center;background-size:cover;display:flex;align-items:end;padding:20px;color:white;position:relative;overflow:hidden}
+.teacher-mini:before{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#1d1218b8,transparent 65%)}
+.teacher-mini b{position:relative;font:19px 'Playfair Display',serif}
+.mini-one{background-image:url('https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=800&q=85')}
+.mini-two{background-image:url('https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=800&q=85')}
+.mini-three{background-image:url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=85')}
+.gallery-section{background:#fff}
+.dance-gallery{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:14px;height:310px;margin:24px 0}
+.dance-gallery>div{background-size:cover;background-position:center;border-radius:13px}
+.gallery-one{background-image:url('https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=900&q=85')}
+.gallery-two{background-image:url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=85')}
+.gallery-three{background-image:url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=85')}
+.cta-band{padding:55px 8%;background:#241b1e;color:white;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.cta-band h2{font:36px 'Playfair Display',serif;max-width:650px;margin:14px 0}
+.cta-band p{color:#e4d5d9;line-height:1.7}
+.teacher-intro{max-width:900px;margin-bottom:35px}
+.teacher-intro h2{font:34px 'Playfair Display',serif}
+.teacher-roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.teacher-card{padding:0;overflow:hidden}
+.teacher-photo{height:290px;background-size:cover;background-position:center}
+.teacher-photo img{width:100%;height:100%;object-fit:cover}
+.teacher-photo-1{background-image:url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=85')}
+.teacher-photo-2{background-image:url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85')}
+.teacher-photo-3{background-image:url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=85')}
+.teacher-photo-4{background-image:url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=800&q=85')}
+.teacher-photo-5{background-image:url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=85')}
+.teacher-photo-6{background-image:url('https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=85')}
+.teacher-card-copy{padding:18px}
+.teacher-card-copy h3{margin:10px 0}
+.teacher-card-copy p{margin:0;color:#75696b;line-height:1.7;font-size:13px}
+.card-1{background-image:url('https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=800&q=85')}
+@media(max-width:800px){.teacher-roster{grid-template-columns:repeat(2,minmax(0,1fr))}.stats-strip{grid-template-columns:repeat(2,1fr)}.cta-band{align-items:flex-start;flex-direction:column}.dance-gallery{height:240px}}
+@media(max-width:560px){.teacher-roster,.teacher-mini-grid{grid-template-columns:1fr}.teacher-photo{height:320px}.dance-gallery{grid-template-columns:1fr 1fr;height:210px}.gallery-one{grid-column:span 2}.stats-strip b{font-size:30px}.cta-band h2{font-size:29px}}
+
+
+/* ===== DANCE STUDIO / EDITORIAL REDESIGN ===== */
+:root{--ink:#171315;--rose:#d9a0ad;--rose2:#f0dce1;--paper:#f7f4f2;--muted:#756b6d;--night:#191416}
+body{background:var(--paper);color:var(--ink)}
+.topbar{background:#171315;color:#fff;border-bottom:1px solid #ffffff1c;height:82px;padding:0 6%}
+.brand{color:#fff;font-size:17px;letter-spacing:.4px}.brand-mark{color:#d9a0ad}
+.topbar nav a{color:#f3e9eb;font-size:11px;letter-spacing:.5px}.topbar nav a:hover{color:var(--rose)}
+.nav-actions a:not(.pill),.link-btn{color:#fff}.menu-toggle{color:#fff}
+.pill{background:var(--rose);color:#21191b;padding:14px 25px;letter-spacing:.4px}
+.hero{background:#191416;min-height:650px;grid-template-columns:.92fr 1.08fr}
+.hero-copy{padding:120px 7% 80px 13%}.hero h1{font-size:clamp(62px,7.2vw,104px);letter-spacing:-2px}
+.hero h1 span{color:#dca5b2}.hero-copy p{font-size:22px;color:#f1e6e8}
+.hero-photo{background:url('/static/studio/images/main.jpg') center 35%/cover no-repeat;min-height:650px;clip-path:polygon(12% 0,100% 0,100% 100%,0 100%)}
+.hero-note{color:#edc3cc;font-size:12px;letter-spacing:5px}
+.eyebrow{color:#a96679;letter-spacing:2.6px}
+.section{padding:88px 8%}.section h2{font-size:clamp(30px,3.4vw,46px);letter-spacing:-.5px}
+.intro-strip{display:flex;justify-content:center;align-items:center;gap:26px;padding:20px 10px;background:#e9d9dc;color:#5e464d;font-size:9px;letter-spacing:2.5px;flex-wrap:wrap}
+.intro-strip i{width:4px;height:4px;border-radius:50%;background:#b97889}
+.about-home{background:#f7f4f2}.wide-copy{font-size:14px;line-height:2.05;max-width:960px}
+.stats-strip>div{background:#eee4e4;border-radius:0;border-left:2px solid #c88c9b}
+.stats-strip b{color:#9c5e70}
+.split{gap:7%;background:#fff}.split-photo{background:url('/static/studio/images/studio.jpg') center/cover no-repeat;height:440px}
+.studio-photo{background:url('/static/studio/images/studio.jpg') center/cover no-repeat}
+.cards{gap:24px}.direction-card{padding:12px 12px 20px;border-radius:3px;box-shadow:none;background:#fff}
+.card-image{height:245px;border-radius:2px}
+.card-1{background-image:url('/static/studio/images/ballet.jpg')}
+.card-2{background-image:url('/static/studio/images/hiphop.jpg')}
+.card-3{background-image:url('/static/studio/images/contemporary.jpg')}
+.card-4{background-image:url('/static/studio/images/highheels.jpg')}
+.card-5{background-image:url('/static/studio/images/dancefitness.jpg')}
+.direction-card h3{font-size:24px}.direction-card p{line-height:1.8}
+.teacher-feature{background:#211a1c;color:#fff}.teacher-feature .wide-copy{color:#cbbdc0}
+.teacher-feature .section-head h2{color:#fff}.teacher-feature .text-link{color:#e0a9b5}
+.home-teacher-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:30px}
+.home-teacher-card{background:#2b2225;border:1px solid #ffffff12}
+.home-teacher-photo{height:290px;overflow:hidden;background:#49353c}
+.home-teacher-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.teacher-photo-fallback{height:100%;display:grid;place-items:center;color:#e6b5c0;font:70px 'Playfair Display'}
+.home-teacher-copy{padding:20px}.home-teacher-copy h3{font:24px 'Playfair Display';margin:10px 0}
+.home-teacher-copy p{font-size:12px;line-height:1.8;color:#d0c1c5}
+.home-teacher-copy .eyebrow{font-size:9px;color:#d49aa8}
+.experience-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:7%;align-items:center;background:#eee5e5}
+.experience-copy h2{font:42px/1.1 'Playfair Display';margin:18px 0}
+.experience-copy p{line-height:1.9;color:var(--muted);max-width:420px}
+.experience-photo{height:380px;background:url('/static/studio/images/studio.jpg') center/cover no-repeat}
+.cta-band{margin:0;padding:55px 8%;background:#d9a0ad;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.cta-band h2{font:34px 'Playfair Display';max-width:600px;margin:14px 0}.cta-band p{font-size:13px}
+.cta-band .pill{background:#20191b;color:#fff}
+.quote-band{background:#191416;color:#e8b8c3;padding:36px;font-size:27px}
+.page-hero{background-image:linear-gradient(90deg,#191416ed,#19141655),url('/static/studio/images/main.jpg');min-height:350px;padding:100px 9%}
+.directions-hero{background-image:linear-gradient(90deg,#191416e8,#19141655),url('/static/studio/images/hiphop.jpg')}
+.about-hero{background-image:linear-gradient(90deg,#191416e8,#19141655),url('/static/studio/images/studio.jpg')}
+.about-story,.about-space{display:grid;grid-template-columns:1fr 1fr;gap:7%;align-items:center;background:#fff}
+.about-story .studio-photo{height:450px}.about-story h2,.about-space h2{font:40px/1.12 'Playfair Display';margin:16px 0 22px}
+.about-story p,.about-space p{font-size:14px;line-height:2;color:#756b6d}
+.about-values{background:#eee5e5}.value-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:32px}
+.value-grid article{background:#faf8f7;padding:25px 20px;min-height:210px}
+.value-grid article>b{color:#b36f81;font:30px 'Playfair Display'}
+.value-grid h3{font:21px 'Playfair Display';margin:22px 0 10px}
+.value-grid p{font-size:12px;line-height:1.8;color:#756b6d}
+.about-space{background:#f7f4f2}.about-space-photo{height:380px;background:url('/static/studio/images/studio.jpg') center/cover no-repeat}
+.about-final{text-align:center;background:#211a1c;color:#fff}.about-final p{color:#d0c1c5;line-height:1.8;margin:0 auto 25px;max-width:600px}
+.about-final h2{font:42px 'Playfair Display';margin:15px 0}
+.teacher-roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.teacher-card{padding:0;border-radius:2px;overflow:hidden;box-shadow:none;background:#fff}
+.teacher-photo{height:300px;background:#eadde0;overflow:hidden}
+.teacher-card .teacher-photo img{height:100%;width:100%;object-fit:cover}
+.teacher-card-copy{padding:18px}.teacher-card-copy h3{margin:12px 0}
+footer{background:#171315;color:#e7bdc7;padding:35px 8%;font-size:16px}
+@media(max-width:900px){.topbar nav.open{background:#211a1c}.topbar nav.open a{color:#fff}.home-teacher-grid,.teacher-roster{grid-template-columns:repeat(2,minmax(0,1fr))}.value-grid{grid-template-columns:repeat(2,1fr)}.experience-section{grid-template-columns:1fr}.experience-photo{height:300px}}
+@media(max-width:600px){.topbar{height:66px}.hero{min-height:670px}.hero-photo{background-position:center;opacity:.48}.hero-copy{padding:90px 8% 45px}.hero h1{font-size:65px}.intro-strip{gap:10px;font-size:8px}.section{padding:55px 6%}.stats-strip{grid-template-columns:repeat(2,1fr)}.home-teacher-grid,.teacher-roster{grid-template-columns:1fr}.home-teacher-photo{height:330px}.about-story,.about-space{grid-template-columns:1fr}.about-story .studio-photo,.about-space-photo{height:270px}.value-grid{grid-template-columns:1fr 1fr}.cta-band{align-items:flex-start;flex-direction:column}.cta-band h2{font-size:29px}.page-hero{padding:70px 7%}.experience-copy h2{font-size:34px}}
+.hero-photo {
+    background-image: url('/static/studio/images/hero-dancer.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

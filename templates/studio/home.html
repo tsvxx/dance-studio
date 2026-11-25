@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Dance Studio — пространство танца{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">DANCE • FEEL • INSPIRE</span>
+    <h1>Открой<br><span>свой танец</span></h1>
+    <p>Пространство, где движение становится твоей историей.</p>
+    <a class="pill" href="{% url 'schedule' %}">Выбрать занятие <span>↗</span></a>
+    <p class="hero-subnote">Первое занятие — первый шаг к себе. Начинай с любого уровня.</p>
+  </div>
+  <div class="hero-photo" role="img" aria-label="Танцоры Dance Studio"></div>
+  <div class="hero-note">MOVE WITH YOUR SOUL</div>
+</section>
+
+<section class="intro-strip">
+  <span>ТАНЕЦ ДЛЯ КАЖДОГО</span><i></i><span>ОТ ПЕРВОГО ШАГА ДО СЦЕНЫ</span><i></i><span>ТВОЙ ТЕМП. ТВОЙ СТИЛЬ.</span>
+</section>
+
+<section class="section about-home">
+  <div class="section-head"><div><span class="eyebrow">ПОЧЕМУ DANCE STUDIO</span><h2>Больше, чем танцевальная школа</h2></div><a href="{% url 'about' %}" class="text-link">Познакомиться со школой ↗</a></div>
+  <p class="wide-copy">Dance Studio — место, где можно начать с нуля, вернуть себе радость движения или вывести любимое направление на новый уровень. Мы соединяем грамотную работу над техникой, музыкальность, физическую подготовку и творческую свободу. Здесь не нужно быть идеальным — важно пробовать, чувствовать музыку и замечать собственный прогресс.</p>
+  <div class="stats-strip"><div><b>{{ directions|length }}</b><span>направлений</span></div><div><b>{{ groups_count }}</b><span>групп</span></div><div><b>{{ teachers_count }}</b><span>педагогов</span></div><div><b>{{ lessons_count }}</b><span>занятий в расписании</span></div></div>
+</section>
+
+<section class="split section">
+  <div class="split-photo"></div>
+  <div><span class="eyebrow">ПРОСТРАНСТВО ДЛЯ ТЕБЯ</span><h2>Комфортно начинать.<br>Интересно расти.</h2>
+    <p>Мы помогаем подобрать группу по возрасту и уровню подготовки. Педагог объясняет технику постепенно, поддерживает на каждом этапе и помогает раскрыть индивидуальность.</p>
+    <a class="pill" href="{% url 'about' %}">Больше о школе ↗</a>
+  </div>
+</section>
+
+<section class="section directions-home">
+  <div class="section-head"><div><span class="eyebrow">НАЙДИ СВОЙ РИТМ</span><h2>Направления школы</h2></div><a href="{% url 'directions' %}" class="text-link">Все направления ↗</a></div>
+  <div class="cards">{% for d in directions %}<article class="direction-card"><div class="card-image card-{{ forloop.counter }}"></div><h3>{{ d.name }}</h3><p>{{ d.description|truncatechars:150 }}</p><a href="{% url 'schedule' %}?direction={{ d.id }}">Найти занятие ↗</a></article>{% empty %}<p>Скоро здесь появятся направления.</p>{% endfor %}</div>
+</section>
+
+<section class="teacher-feature section">
+  <div class="section-head"><div><span class="eyebrow">ЛИЦА НАШЕЙ ШКОЛЫ</span><h2>Команда, которая вдохновляет</h2></div><a href="{% url 'teachers' %}" class="text-link">Все преподаватели ↗</a></div>
+  <p class="wide-copy">У каждого педагога свой стиль и опыт. Вместе мы создаём атмосферу, в которой можно учиться, экспериментировать и уверенно двигаться вперёд.</p>
+  <div class="home-teacher-grid">{% for t in home_teachers %}
+    <article class="home-teacher-card">
+      <div class="home-teacher-photo">{% if t.photo %}<img src="{{ t.photo.url }}" alt="{{ t.user.get_full_name }}">{% else %}<div class="teacher-photo-fallback">✦</div>{% endif %}</div>
+      <div class="home-teacher-copy"><span class="eyebrow">ПРЕПОДАВАТЕЛЬ</span><h3>{{ t.user.get_full_name|default:t.user.username }}</h3><p>{{ t.bio|default:"Помогает ученикам раскрывать потенциал и получать удовольствие от танца."|truncatechars:115 }}</p></div>
+    </article>
+  {% empty %}<p>Информация о преподавателях скоро появится.</p>{% endfor %}</div>
+</section>
+
+<section class="experience-section section">
+  <div class="experience-copy"><span class="eyebrow">ТВОЙ ПУТЬ В ТАНЦЕ</span><h2>От первого занятия<br>до большой сцены</h2><p>Открытые уроки, мастер-классы, внутренние показы и отчётные выступления помогают увидеть свой рост и разделить радость танца с другими.</p><a href="{% url 'schedule' %}" class="text-link">Посмотреть расписание ↗</a></div>
+  <div class="experience-photo"></div>
+</section>
+<section class="cta-band"><div><span class="eyebrow">ГОТОВА ПОПРОБОВАТЬ?</span><h2>Твой первый шаг начинается с одного занятия</h2><p>Выбери направление и найди удобное время в расписании.</p></div><a class="pill" href="{% url 'schedule' %}">Записаться ↗</a></section>
+<section class="quote-band">Танцуй так, чтобы чувствовать себя собой</section>
+{% endblock %}
